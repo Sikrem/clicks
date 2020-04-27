@@ -1,0 +1,54 @@
+body{
+	font-family: 'Comic Neue', cursive;
+}
+.upt{
+	clear: both;
+	margin-left: 136px; 
+}
+.sc{
+	clear: both;
+	margin-left: 312px;
+	position: relative;
+	bottom: 196px;
+
+}
+.c{
+	width: 128px;
+	height: 128px;
+	background-image: url('coin.png');
+	background-repeat: no-repeat;
+	background-size: all;
+	user-select: none;
+	float: left;
+}
+.up{
+	width: 128px;
+	height: 128px;
+	background-image: url('upgr.png');
+	background-repeat: no-repeat;
+	background-size: all;
+	user-select: none;
+	float: left;
+}
+.star{
+	width: 128px;
+	height: 128px;
+	background-image: url('star.png');
+	background-repeat: no-repeat;
+	background-size: all;
+	user-select: none;
+	position: relative;
+	bottom: 178px;
+	left: 314px;
+}
+.fin{
+	width: 128px;
+	height: 128px;
+	background-image: url('Fin.png');
+	background-repeat: no-repeat;
+	background-size: all;
+	user-select: none;
+	position: relative;
+	bottom: 178px;
+	left: 138px;
+}
