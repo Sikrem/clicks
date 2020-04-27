@@ -1,4 +1,4 @@
-alert('Make money, buy stars. (Coin = money, Arrows = upgrades, Stars = stars, Fin = check aim)')
+alert('Make money, buy stars. (Coin = money, Arrows = upgrade, Star = star, Fin = check aim)');
 let title = document.getElementsByTagName('h1');
 let click = document.getElementsByTagName('div');
 let lol = document.getElementsByTagName('h2');
