@@ -26,32 +26,32 @@ click[1].addEventListener("click", function(){
 });
 click[2].addEventListener("click", function(){
 	lol[2].innerHTML = 'STAR COST: '+sc;
-	check:
-	if (s === 3) {
+	if (s >= 3) {
 		alert('NO MORE STARS');
 		lol[2].innerHTML = 'NO STARS';
-		break check;
 	}
-	if (k >= sc) {
-		k -= sc;
-		sc = parseInt(sc + 1000)
-		s += 1;
-		title[0].innerHTML = 'Money: '+k;
+	else:{
+		if (k >= sc) {
+			k -= sc;
+			sc = parseInt(sc + 1000)
+			s += 1;
+			title[0].innerHTML = 'Money: '+k;
+			if (s == 3) {
+				lol[2].innerHTML = 'NO STARS ';
+			}
+			if (s < 3){
+				lol[2].innerHTML = 'STAR COST: '+sc;
+			}
+		}
+		if (s == 1) {
+			fon[0].style.backgroundImage = 'url("bgi1.png")';
+		}
+		if (s == 2) {
+			fon[0].style.backgroundImage = 'url("bgi2.png")';
+		}
 		if (s == 3) {
-			lol[2].innerHTML = 'NO STARS ';
+			fon[0].style.backgroundImage = 'url("bgi3.png")';
 		}
-		if (s < 3){
-			lol[2].innerHTML = 'STAR COST: '+sc;
-		}
-	}
-	if (s == 1) {
-		fon[0].style.backgroundImage = 'url("bgi1.png")';
-	}
-	if (s == 2) {
-		fon[0].style.backgroundImage = 'url("bgi2.png")';
-	}
-	if (s == 3) {
-		fon[0].style.backgroundImage = 'url("bgi3.png")';
 	}
 });
 click[4].addEventListener("click", function(){
@@ -69,7 +69,7 @@ click[3].addEventListener("click", function(){
 	if (k >= autocost) {
 		k -= autocost;
 		autocost = parseInt(autocost + 0.5*autocost);
-		auto += 1;
+		auto += 1*u;
 		lol[1].innerHTML = 'AUTOCLICKER: '+autocost;
 	}
 })
