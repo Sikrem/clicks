@@ -30,7 +30,7 @@ click[2].addEventListener("click", function(){
 		alert('NO MORE STARS');
 		lol[2].innerHTML = 'NO STARS';
 	}
-	else:{
+	else{
 		if (k >= sc) {
 			k -= sc;
 			sc = parseInt(sc + 1000)
