@@ -1,5 +1,8 @@
 body{
 	font-family: 'Comic Neue', cursive;
+	background-image: url('bgi.png');
+	background-repeat: no-repeat;
+	background-size: all;
 }
 .upt{
 	clear: both;
@@ -7,10 +10,15 @@ body{
 }
 .sc{
 	clear: both;
-	margin-left: 312px;
+	margin-left: 560px;
+	position: relative;
+	bottom: 392px;
+}
+.att{
+	clear: both;
 	position: relative;
 	bottom: 196px;
-
+	left: 314px;
 }
 .c{
 	width: 128px;
@@ -39,7 +47,7 @@ body{
 	user-select: none;
 	position: relative;
 	bottom: 178px;
-	left: 314px;
+	left: 550px;
 }
 .fin{
 	width: 128px;
@@ -49,6 +57,17 @@ body{
 	background-size: all;
 	user-select: none;
 	position: relative;
-	bottom: 178px;
+	bottom: 378px;
 	left: 138px;
+}
+.at{
+	width: 128px;
+	height: 128px;
+	background-image: url('at.png');
+	background-repeat: no-repeat;
+	background-size: all;
+	user-select: none;
+	position: relative;
+	bottom: 378px;
+	left: 314px;
 }
